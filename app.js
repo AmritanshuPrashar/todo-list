@@ -7,7 +7,7 @@ const _ = require("lodash");
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {
+mongoose.connect("mongodb+srv://testuser123:testpassword123@todocluster.ro5hs.mongodb.net/todolistDB?retryWrites=true&w=majority", {
     useNewUrlParser: true
 });
 
